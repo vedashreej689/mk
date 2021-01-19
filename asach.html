@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+background-image:url(mkbg2.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  background-image:url(gurus.jpg);
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  color: white;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  color: white
+}
+
+.title {
+color:white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+a
+{
+color:white;
+text-decoration:none;
+}
+.h2{
+  text-align:center;
+  color:white;
+}
+</style>
+</head>
+<body>
+<table border="0" width="100%"  bgcolor="black" height=20%>
+<tr>
+<th width=20%><a href="*newmk.html" id="a">HOME</a><th>
+<th width="20% ><font color="white" size="4"><a href="asach.html" id="a">ABOUT</a></font></th>
+<th width="20%><font color="white" size="4"><a href="gallery.html" id="a" >GALLERY</a></font></th>
+<th width"20%><font color="white" size="4"><a href="sketches.html" id="maheshkale">SKETCHES</a></font></td>
+<th width="20%"><font color="white" size="4"><a href="contactus.html" id="maheshkale">CONTACT US</a></font></td>
+</tr>
+</table>
+<div class="about-section">
+  <h1>About MK </h1>
+</div>
+
+<h2 style="text-align:center">.</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="guru4.jpg" alt="Guru" style="width:100%">
+      <div class="container">
+        <h2>Pt. Jitendra Abhisheki</h2>
+        <p class="title">Guru</p>
+        <p> A milestone in Mahesh’s life was his close association with Padmashree Pandit Jitendra Abhishekiji, one of the greatest Maestros of Indian classical Music. He had a revolutionary influence on the evolution of modern Indian classical and devotional music.  </p>
+        <p><button class="button"></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="gurus1.jpg" alt="mother" style="width:100%">
+      <div class="container">
+        <h2>Smt.Meenal kale</h2>
+        <p class="title">Mother</p>
+        <p>For Mahesh music started at home. He was fortunate to have his mother as his first Guru. He started learning music at the tender age of three. His basic liking for music is attributed to her. </p>
+        <p><button class="button"></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="mkpg.jpg" alt="wife" style="width:100%">
+      <div class="container">
+        <h2>Poorva Gujar</h2>
+        <p class="title">Wife</p>
+        <p>Mahesh is married to Purva Gujar-Kale (m. 2005) and they run non-profit Indian Classical Music and Arts Foundation together in San Francisco Bay Area.Along with her profession,she helps Mahesh in running ICMA. </p>
+        <p><button class="button"></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
